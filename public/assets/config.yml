@@ -2,9 +2,10 @@
 # Homepage configuration
 # See https://fontawesome.com/search for icons options
 
-title: "Iatiah Homepage"
+title: "Iatiah Home"
 subtitle: "Home"
 logo: "logo.png"
+connectivityCheck: false
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
