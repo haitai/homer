@@ -3,7 +3,7 @@
 # See https://fontawesome.com/search for icons options
 
 title: "Iatiah Home"
-subtitle: "Home"
+# subtitle: "Home"
 logo: "logo.png"
 connectivityCheck: false
 # icon: "fas fa-skull-crossbones" # Optional icon
@@ -48,9 +48,9 @@ colors:
 message:
   #url: https://b4bz.io
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
+  title: "Hello !"
   icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+  content: "This is a dummy homepage. <br /> I put all my sites here."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -60,7 +60,7 @@ links:
     url: "https://huhaitai.com"
     target: "_blank" # optional html a tag target attribute
   - name: "Microblog"
-    icon: "fas fa-microblog"
+    icon: "fa-brands fa-microblog"
     url: "https://t.huhaitai.com/"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
@@ -73,7 +73,7 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Google"
-    icon: "fas fa-google"
+    icon: "fa-brands fa-google"
     items:
       - name: "Blog"
         icon: "fa-solid fa-blog"
