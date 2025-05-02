@@ -2,8 +2,8 @@
 # Homepage configuration
 # See https://fontawesome.com/search for icons options
 
-title: "Iatiah Home"
-# subtitle: "Home"
+title: "主页导航"
+subtitle: "Iatiah"
 logo: "logo.png"
 connectivityCheck: false
 # icon: "fas fa-skull-crossbones" # Optional icon
@@ -48,20 +48,21 @@ colors:
 message:
   #url: https://b4bz.io
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Hello !"
+  title: "你好 !"
   icon: "fa fa-grin"
-  content: "This is a dummy homepage. <br /> I put all my sites here."
+  content: "这是一个主页站点，把所有搭建过的网站都放在这里方便浏览使用。"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "WWW"
+  - name: "主页"
     icon: "fab fa-web-awesome"
     url: "https://huhaitai.com"
     target: "_blank" # optional html a tag target attribute
-  - name: "Microblog"
+  - name: "微博"
     icon: "fa-brands fa-microblog"
     url: "https://t.huhaitai.com/"
+    target: "_blank"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
@@ -75,16 +76,34 @@ services:
   - name: "Google"
     icon: "fa-brands fa-google"
     items:
-      - name: "Blog"
+      - name: "博客"
         icon: "fa-solid fa-blog"
-        subtitle: "A blog powered by google appengine"
+        subtitle: "搭建在google appengine平台上的博客程序"
         tag: "blog"
         url: "https://b.huhaitai.com"
-      - name: "Private Blog"
+      - name: "私人博客"
         icon: "fa-solid fa-stop"
-        subtitle: "Blogger blog"
+        subtitle: "Blogger平台上的日记博客"
         tag: "blog"
         url: "https://bi.huhaitai.com"
+      - name: "地点"
+        icon: "fa-solid fa-location-dot"
+        subtitle: "每2个小时上传一次自己的位置，已废弃"
+        tag: "tool"
+        url: "https://lacate.huhaitai.com"
+  - name: "Cloudflare"
+    icon: "fa-brands fa-cloudflare"
+    items:
+      - name: "图片"
+        icon: "fa-solid fa-blog"
+        subtitle: "一个图床"
+        tag: "tool"
+        url: "https://img.huhaitai.com"
+      - name: "文本"
+        icon: "fa-solid fa-notes"
+        subtitle: "一个文本分享工具"
+        tag: "tool"
+        url: "https://note.huhaitai.com"
       - name: "Locate"
         icon: "fa-solid fa-location-dot"
         subtitle: "Location"
